@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="64F89336-5E9A-E5BE-8577-8FF86849B8FA" name="GRAD">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 23:17:16 UTC</createdTime>
+<generatorID>CF173081-D759-9E71-0467-748C72606258</generatorID>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Grad" id="FEC8CEE6-A893-B175-C94D-8B89F0436209">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 23:17:16 UTC</createdTime>
+<generatorID>7B032FB9-68A9-5394-283C-5EC6F9A83475</generatorID>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>GRAD_SEQ</autoIncrementSequenceName>
+<autoIncrementTriggerName>GRAD_TRG</autoIncrementTriggerName>
+</Column>
+<Column name="Naziv" id="7DC45AA7-DDF0-1D9F-5928-702A68C71F18">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 23:17:16 UTC</createdTime>
+<generatorID>6562B363-98FB-ADDC-9B55-B17C5AB0CDEF</generatorID>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Postanski_broj" id="8553F21F-A013-A512-DD66-10626D421A85">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 23:17:16 UTC</createdTime>
+<generatorID>4E971AB1-5DBC-372C-94E8-16B23CE4793C</generatorID>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DRZAVA_ID_Drzava" id="3A4FC63C-057E-F606-34B2-23ECF4E126CF">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 23:17:16 UTC</createdTime>
+<generatorID>D1E11A55-5E36-95F2-2453-209632BF7C04</generatorID>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6A63B3B7-B85B-4D7A-48C7-CF75161F34EA" referredColumn="4227DA49-7321-809B-2EC4-EB0A8E95219A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="995635CE-8860-74B5-958F-9C6EDDE5E97F" name="GRAD_PK">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 23:17:16 UTC</createdTime>
+<generatorID>E975C2FA-01B0-7E55-98FB-4B92D39F25B5</generatorID>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FEC8CEE6-A893-B175-C94D-8B89F0436209"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="19DFF3ED-C9A0-1768-B10F-706649FF9872" name="GRAD_DRZAVA_FK">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 23:17:16 UTC</createdTime>
+<generatorID>1F7DD0B4-5777-BDE4-C202-F0D6C38CC0EC</generatorID>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3A4FC63C-057E-F606-34B2-23ECF4E126CF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

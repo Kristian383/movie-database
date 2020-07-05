@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FED465A1-F132-3809-119C-E4AC8E5DDE88" name="LOKACIJA SNIMANJA">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 21:44:25 UTC</createdTime>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<engineerTo>
+<item key="C0ED1F46-98F0-3639-33BE-7913DA525A89" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="GRAD ID Grad" id="2714A9FD-23EA-E366-F350-2F0D450EDC01">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 21:50:14 UTC</createdTime>
+<generatorID>D73C4298-D403-F39D-3B23-C3BC33489764</generatorID>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<engineerTo>
+<item key="C0ED1F46-98F0-3639-33BE-7913DA525A89" value="true"/>
+</engineerTo>
+<referedAttribute>7B032FB9-68A9-5394-283C-5EC6F9A83475</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FILM ID Film" id="AF1806F6-2D79-468D-437C-CA199DE2F15E">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 21:50:35 UTC</createdTime>
+<generatorID>B80144A5-B599-14CD-3459-27A44A412A9A</generatorID>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<engineerTo>
+<item key="C0ED1F46-98F0-3639-33BE-7913DA525A89" value="true"/>
+</engineerTo>
+<referedAttribute>435771DE-0279-3376-8E3E-77D6270BF359</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="57C7F07B-07DF-1069-013B-44BC0B9B6304" name="LOKACIJA_SNIMANJA_PK">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 21:48:06 UTC</createdTime>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C0ED1F46-98F0-3639-33BE-7913DA525A89" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2714A9FD-23EA-E366-F350-2F0D450EDC01</attributeRef>
+<attributeRef>AF1806F6-2D79-468D-437C-CA199DE2F15E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

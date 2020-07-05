@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="174BD9BC-E697-2D56-1324-816BD8A188EA" name="KORISNIK">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 23:17:16 UTC</createdTime>
+<generatorID>F0D21769-B50D-6239-5BD1-A61898FB9C5B</generatorID>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Korisnik" id="84ABCAB6-E8B3-E7CE-84FD-7B38EFF6B557">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 23:17:16 UTC</createdTime>
+<generatorID>C6A12429-0D1A-FC3C-FE5F-C25DCEE2CC87</generatorID>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>KORISNIK_SEQ</autoIncrementSequenceName>
+<autoIncrementTriggerName>KORISNIK_TRG</autoIncrementTriggerName>
+</Column>
+<Column name="Email" id="ABADDB81-DDE9-808F-9FB6-2EE48351FD10">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 23:17:16 UTC</createdTime>
+<generatorID>C3CF581F-1EFF-BA8F-DA8C-6BFEE1407614</generatorID>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ime" id="C53A3AAE-AA49-C381-1FB0-E6604FB4C8F8">
+<createdBy>krist</createdBy>
+<createdTime>2020-04-01 00:16:46 UTC</createdTime>
+<generatorID>D417391B-5D70-6A00-16FD-EFEB022403C7</generatorID>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Datum_uclanjenja" id="FD5A47B5-5198-8FDE-4A5B-4F340CC10C7A">
+<createdBy>krist</createdBy>
+<createdTime>2020-04-02 22:35:01 UTC</createdTime>
+<generatorID>1913470B-F11F-1527-4A90-073B8E490F30</generatorID>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3833190E-17BB-B8A9-663A-115B4BC66010" name="KORISNIK_PK">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 23:17:16 UTC</createdTime>
+<generatorID>8B033FB7-95DF-5227-6E31-5B674A6F9C91</generatorID>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="84ABCAB6-E8B3-E7CE-84FD-7B38EFF6B557"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

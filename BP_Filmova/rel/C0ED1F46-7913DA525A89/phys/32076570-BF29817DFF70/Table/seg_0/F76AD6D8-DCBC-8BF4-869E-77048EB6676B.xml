@@ -1,0 +1,36 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="SPOL" directorySegmentName="seg_0" id="F76AD6D8-DCBC-8BF4-869E-77048EB6676B">
+<createdBy>krist</createdBy>
+<createdTime>2020-04-03 00:02:09 UTC</createdTime>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ID_Spol" id="28901139-DD15-B32C-7CF0-2BA7B996FF9E">
+<createdBy>krist</createdBy>
+<createdTime>2020-04-03 00:02:09 UTC</createdTime>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Oznaka" id="354BF8C3-A70B-FD7F-8FBF-6ED60A2C8071">
+<createdBy>krist</createdBy>
+<createdTime>2020-04-03 00:02:09 UTC</createdTime>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Naziv" id="6240CF8E-59D5-9CFB-88A3-3F8CDD905FCD">
+<createdBy>krist</createdBy>
+<createdTime>2020-04-03 00:02:09 UTC</createdTime>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="SPOL_PK" id="3D962E9E-C04F-089E-6D69-D20B82C37737">
+<createdBy>krist</createdBy>
+<createdTime>2020-04-03 00:02:09 UTC</createdTime>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

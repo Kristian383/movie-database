@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="RECENZIJA" directorySegmentName="seg_0" id="BAA33D33-4062-6073-0528-64DC8EF7EF24">
+<createdBy>krist</createdBy>
+<createdTime>2020-04-03 00:02:09 UTC</createdTime>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="Komentar" id="0B584DB8-9FE8-7465-FE64-93F096A85FD3">
+<createdBy>krist</createdBy>
+<createdTime>2020-04-03 00:02:09 UTC</createdTime>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FILM_ID_Film" id="0CB5C38D-D9B4-3FC6-4843-0B38D6C8E482">
+<createdBy>krist</createdBy>
+<createdTime>2020-04-03 00:02:09 UTC</createdTime>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Datum_objave" id="2BC4AA48-B362-CF20-9593-FC713C7F6114">
+<createdBy>krist</createdBy>
+<createdTime>2020-04-03 00:02:09 UTC</createdTime>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Ocjena" id="3D6DF5E5-56DF-B54D-D5E1-A9EDDBCE1290">
+<createdBy>krist</createdBy>
+<createdTime>2020-04-03 00:02:09 UTC</createdTime>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="OSOBA_ID_Osoba" id="C874710C-D02E-14BE-8424-115A8AD8AA8C">
+<createdBy>krist</createdBy>
+<createdTime>2020-04-03 00:02:09 UTC</createdTime>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="RECENZIJA_FILM_FK" id="16EF741A-B6CA-2919-8453-C0A252D7D0E4">
+<createdBy>krist</createdBy>
+<createdTime>2020-04-03 00:02:09 UTC</createdTime>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="RECENZIJA_OSOBA_FK" id="1769FDC3-91FE-78F7-BCDE-6E2FC6871076">
+<createdBy>krist</createdBy>
+<createdTime>2020-04-03 00:02:09 UTC</createdTime>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="RECENZIJA_PK" id="E95FFE62-6C99-5307-5B24-2C39237A62C7">
+<createdBy>krist</createdBy>
+<createdTime>2020-04-03 00:02:09 UTC</createdTime>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

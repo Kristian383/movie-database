@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7BA74DE1-459F-EFC5-9363-855F9F4B4220" name="KLASIFIKACIJA">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 21:29:07 UTC</createdTime>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<engineerTo>
+<item key="C0ED1F46-98F0-3639-33BE-7913DA525A89" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID Klasifikacija" id="CE7AA8DA-D95F-B57C-AF27-E65685C9F13D">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 21:29:19 UTC</createdTime>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<engineerTo>
+<item key="C0ED1F46-98F0-3639-33BE-7913DA525A89" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Naziv" id="31E9DA3D-F5E7-8C88-073B-B83169E30597">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 21:30:29 UTC</createdTime>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<engineerTo>
+<item key="C0ED1F46-98F0-3639-33BE-7913DA525A89" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>35</dataTypeSize>
+<ownDataTypeParameters>35,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Oznaka" id="F7FBFF58-FC0B-54BE-231A-D640C9BD3177">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 21:32:05 UTC</createdTime>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<engineerTo>
+<item key="C0ED1F46-98F0-3639-33BE-7913DA525A89" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Godine" id="249AB289-FBA8-8871-D19F-731F3C557C8A">
+<createdBy>krist</createdBy>
+<createdTime>2020-04-04 00:46:44 UTC</createdTime>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<engineerTo>
+<item key="C0ED1F46-98F0-3639-33BE-7913DA525A89" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5BC75E19-3118-9814-0EF8-731C4D9ACEFF" name="KLASIFIKACIJA PK">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 21:29:32 UTC</createdTime>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C0ED1F46-98F0-3639-33BE-7913DA525A89" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CE7AA8DA-D95F-B57C-AF27-E65685C9F13D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

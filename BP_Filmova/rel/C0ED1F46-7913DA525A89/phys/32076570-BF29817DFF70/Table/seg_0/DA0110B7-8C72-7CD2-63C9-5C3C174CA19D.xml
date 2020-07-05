@@ -1,0 +1,31 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="DRZAVA" directorySegmentName="seg_0" id="DA0110B7-8C72-7CD2-63C9-5C3C174CA19D">
+<createdBy>krist</createdBy>
+<createdTime>2020-04-03 00:02:09 UTC</createdTime>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ID_Drzava" id="4227DA49-7321-809B-2EC4-EB0A8E95219A">
+<createdBy>krist</createdBy>
+<createdTime>2020-04-03 00:02:09 UTC</createdTime>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Naziv_Drzave" id="75740C5C-5B90-D1B7-07C1-C81299BBAE0D">
+<createdBy>krist</createdBy>
+<createdTime>2020-04-03 00:02:09 UTC</createdTime>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="DRZAVA_PK" id="158A8B19-4054-E58B-49E6-DF76F635378F">
+<createdBy>krist</createdBy>
+<createdTime>2020-04-03 00:02:09 UTC</createdTime>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

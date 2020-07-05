@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="170DB957-3EEF-44FC-17F4-08AA6C7A0A50" name="OSOBA">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 21:03:58 UTC</createdTime>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<engineerTo>
+<item key="C0ED1F46-98F0-3639-33BE-7913DA525A89" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID Osoba" id="95436E21-F50A-25D6-5D32-D35F06C886A1">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 21:04:04 UTC</createdTime>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<engineerTo>
+<item key="C0ED1F46-98F0-3639-33BE-7913DA525A89" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ime" id="F0AA24C7-A3FE-1AB0-D859-E1873A125BB3">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 21:04:34 UTC</createdTime>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<engineerTo>
+<item key="C0ED1F46-98F0-3639-33BE-7913DA525A89" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Prezime" id="3D249E1E-FBBE-932A-9C42-712C90CAC0B7">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 21:05:01 UTC</createdTime>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<engineerTo>
+<item key="C0ED1F46-98F0-3639-33BE-7913DA525A89" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Datum rodenja" id="51C86F87-820E-B903-7BFF-1F449F28FBFC">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 21:05:19 UTC</createdTime>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<engineerTo>
+<item key="C0ED1F46-98F0-3639-33BE-7913DA525A89" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SPOL ID Spol" id="6FFBB05D-D28E-111D-5C3D-54715F5370E4">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 21:40:26 UTC</createdTime>
+<generatorID>D09E1DA8-6D2E-8479-78C6-B4886C90ED9D</generatorID>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<engineerTo>
+<item key="C0ED1F46-98F0-3639-33BE-7913DA525A89" value="true"/>
+</engineerTo>
+<referedAttribute>69FE9655-F68E-1FC4-3682-9ABDC2C50D25</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="GRAD ID Grad" id="2672B592-DF60-418F-5BA4-72876C07EBE5">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 21:41:11 UTC</createdTime>
+<generatorID>49437C5A-EE61-6D22-AA9B-AA3947ABEF97</generatorID>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<engineerTo>
+<item key="C0ED1F46-98F0-3639-33BE-7913DA525A89" value="true"/>
+</engineerTo>
+<referedAttribute>7B032FB9-68A9-5394-283C-5EC6F9A83475</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Datum_smrti" id="E8D54926-4AD6-ED96-8209-29DF91DDB3A9">
+<createdBy>krist</createdBy>
+<createdTime>2020-04-04 00:46:31 UTC</createdTime>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<engineerTo>
+<item key="C0ED1F46-98F0-3639-33BE-7913DA525A89" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D82043D6-D9ED-5761-49C0-35F8FAFD8080" name="OSOBA PK">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 21:04:14 UTC</createdTime>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C0ED1F46-98F0-3639-33BE-7913DA525A89" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>95436E21-F50A-25D6-5D32-D35F06C886A1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="GLUMAC FILM OSOBA FK" directorySegmentName="seg_0" id="80820795-820A-5331-9A38-65845166E56C">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 22:12:05 UTC</createdTime>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<engineerTo>
+<item key="C0ED1F46-98F0-3639-33BE-7913DA525A89" value="true"/>
+</engineerTo>
+<sourcePk>D82043D6-D9ED-5761-49C0-35F8FAFD8080</sourcePk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>170DB957-3EEF-44FC-17F4-08AA6C7A0A50</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>FA65AC6D-ACB9-CA43-243C-D916B3C8E0FF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="OSOBA SPOL FK" directorySegmentName="seg_0" id="D09E1DA8-6D2E-8479-78C6-B4886C90ED9D">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 21:40:26 UTC</createdTime>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<engineerTo>
+<item key="C0ED1F46-98F0-3639-33BE-7913DA525A89" value="true"/>
+</engineerTo>
+<sourcePk>9099AAC3-D430-0474-4906-397791234704</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2C3BC3E7-7C74-E923-C7F7-0179C41179A0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>170DB957-3EEF-44FC-17F4-08AA6C7A0A50</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

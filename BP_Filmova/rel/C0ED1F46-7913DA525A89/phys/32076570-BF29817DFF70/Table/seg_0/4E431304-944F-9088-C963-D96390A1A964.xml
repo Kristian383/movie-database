@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="GLUMAC_FILM" directorySegmentName="seg_0" id="4E431304-944F-9088-C963-D96390A1A964">
+<createdBy>krist</createdBy>
+<createdTime>2020-04-03 00:02:09 UTC</createdTime>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="OSOBA_ID_Osoba" id="0EB7DFF4-CF7A-BE1E-B81B-452C2B2FE879">
+<createdBy>krist</createdBy>
+<createdTime>2020-04-03 00:02:09 UTC</createdTime>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Naziv_lika" id="87AB596C-9749-F9A4-2633-A0AFC266D8E0">
+<createdBy>krist</createdBy>
+<createdTime>2020-04-03 00:02:09 UTC</createdTime>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FILM_ID_Film" id="952954A9-8F67-1C53-A07C-AFBCD46B18AA">
+<createdBy>krist</createdBy>
+<createdTime>2020-04-03 00:02:09 UTC</createdTime>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="GLUMAC_FILM_FILM_FK" id="8B189EFE-F6E7-07CC-5B83-9E254806297B">
+<createdBy>krist</createdBy>
+<createdTime>2020-04-03 00:02:09 UTC</createdTime>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="GLUMAC_FILM_OSOBA_FK" id="F7FE19B0-E779-FDC2-F6B5-F68C03ADA0E4">
+<createdBy>krist</createdBy>
+<createdTime>2020-04-03 00:02:09 UTC</createdTime>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="GLUMAC_FILM_PK" id="BF65DEF5-8E6D-62EF-86F3-B13447609BDE">
+<createdBy>krist</createdBy>
+<createdTime>2020-04-03 00:02:09 UTC</createdTime>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="OCJENA FILM KORISNIK FK" directorySegmentName="seg_0" id="555B710C-C473-2578-34F9-D7E1A8EAD891">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 23:06:36 UTC</createdTime>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<engineerTo>
+<item key="C0ED1F46-98F0-3639-33BE-7913DA525A89" value="true"/>
+</engineerTo>
+<sourcePk>8B033FB7-95DF-5227-6E31-5B674A6F9C91</sourcePk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F0D21769-B50D-6239-5BD1-A61898FB9C5B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>33A3B9E2-F3C7-A05C-82FF-7BC42EFB906D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

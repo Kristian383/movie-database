@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FILM OSOBA FK" directorySegmentName="seg_0" id="DB6F97FB-BC93-849B-E469-AE9FFA5A2FDC">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 22:12:22 UTC</createdTime>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<engineerTo>
+<item key="C0ED1F46-98F0-3639-33BE-7913DA525A89" value="true"/>
+</engineerTo>
+<sourcePk>D82043D6-D9ED-5761-49C0-35F8FAFD8080</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>170DB957-3EEF-44FC-17F4-08AA6C7A0A50</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1FE1377F-4FBD-67A0-5784-90CF06F166FE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

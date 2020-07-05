@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="57C41A13-EEC7-EE1A-A416-24F249EBA610" name="LISTA_FILM">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 23:17:16 UTC</createdTime>
+<generatorID>F0AFFD68-CEF6-35F8-05DF-63C01C1A1B95</generatorID>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="LISTA_ID_Lista" id="53036538-ADD2-17F8-377A-B6D35FF66EB0">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 23:17:16 UTC</createdTime>
+<generatorID>450D4E26-CF34-F48D-BE61-A8C40A67C99C</generatorID>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="21AA37C2-9B8F-9876-2B4B-044346E77D78" referredColumn="C2B0BCEC-308F-088E-771A-4CD33D530C4A"/>
+</associations>
+</Column>
+<Column name="FILM_ID_Film" id="EE709E1B-2EAE-9C7F-1F98-AE44C54F16CD">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 23:17:16 UTC</createdTime>
+<generatorID>97CCFF9A-0F7A-D215-F363-A7E07A9C7324</generatorID>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C90C2986-2F92-F4DB-3C79-F3D87E72F9A9" referredColumn="B01DEB5D-83DC-18BE-21E7-D3DE2DF60C68"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B7532C4F-9A46-D299-03D9-2CFEEB07B14B" name="LISTA_FILM_PK">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 23:17:16 UTC</createdTime>
+<generatorID>F6B3C228-4C04-FD58-B7F4-47F81AF47EBD</generatorID>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="53036538-ADD2-17F8-377A-B6D35FF66EB0"/>
+<colUsage columnID="EE709E1B-2EAE-9C7F-1F98-AE44C54F16CD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="78A70DAB-067F-09DC-AC03-29D1AD86BF43" name="LISTA_FILM_LISTA_FK">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 23:17:16 UTC</createdTime>
+<generatorID>D83DBCE6-4AC8-04EE-1199-1271C1AB05CA</generatorID>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="53036538-ADD2-17F8-377A-B6D35FF66EB0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5A945127-866E-3E05-1924-9AEC195B64C9" name="LISTA_FILM_FILM_FK">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 23:17:16 UTC</createdTime>
+<generatorID>EE6AD967-3AED-CCB7-DDE9-8B1516A95ACE</generatorID>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EE709E1B-2EAE-9C7F-1F98-AE44C54F16CD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

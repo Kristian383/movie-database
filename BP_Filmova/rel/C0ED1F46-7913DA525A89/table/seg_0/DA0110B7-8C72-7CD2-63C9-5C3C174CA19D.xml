@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DA0110B7-8C72-7CD2-63C9-5C3C174CA19D" name="DRZAVA">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 23:17:16 UTC</createdTime>
+<generatorID>0E9A87A5-D833-E99C-6976-C7C45B3A665D</generatorID>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Drzava" id="4227DA49-7321-809B-2EC4-EB0A8E95219A">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 23:17:16 UTC</createdTime>
+<generatorID>AF69BE49-8827-40A9-383C-D71CABFED2C2</generatorID>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>DRZAVA_SEQ</autoIncrementSequenceName>
+<autoIncrementTriggerName>DRZAVA_TRG</autoIncrementTriggerName>
+</Column>
+<Column name="Naziv_Drzave" id="75740C5C-5B90-D1B7-07C1-C81299BBAE0D">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 23:17:16 UTC</createdTime>
+<generatorID>D7B40087-E377-3E91-5AA5-66FE166A8170</generatorID>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="158A8B19-4054-E58B-49E6-DF76F635378F" name="DRZAVA_PK">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 23:17:16 UTC</createdTime>
+<generatorID>88248C57-C85C-D540-5772-4725DA54C6D6</generatorID>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4227DA49-7321-809B-2EC4-EB0A8E95219A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

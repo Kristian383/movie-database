@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4E431304-944F-9088-C963-D96390A1A964" name="GLUMAC_FILM">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 23:17:16 UTC</createdTime>
+<generatorID>FA65AC6D-ACB9-CA43-243C-D916B3C8E0FF</generatorID>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="OSOBA_ID_Osoba" id="0EB7DFF4-CF7A-BE1E-B81B-452C2B2FE879">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 23:17:16 UTC</createdTime>
+<generatorID>052D932A-04E0-FC8E-747F-B4B6756A17DC</generatorID>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="373CEB5F-EAA7-A551-7451-1586F862BA9E" referredColumn="B682EF7A-9E3B-3A6C-F8E5-A34111812F90"/>
+</associations>
+</Column>
+<Column name="FILM_ID_Film" id="952954A9-8F67-1C53-A07C-AFBCD46B18AA">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 23:17:16 UTC</createdTime>
+<generatorID>BD259733-24F7-4516-79F3-E307701F0AA1</generatorID>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E1A00DF9-77F6-D787-6F73-0E72BF5FFAF1" referredColumn="B01DEB5D-83DC-18BE-21E7-D3DE2DF60C68"/>
+</associations>
+</Column>
+<Column name="Naziv_lika" id="87AB596C-9749-F9A4-2633-A0AFC266D8E0">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 23:17:16 UTC</createdTime>
+<generatorID>4E645646-ABA1-CCD8-3E3F-74F20B5A0A6B</generatorID>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BF65DEF5-8E6D-62EF-86F3-B13447609BDE" name="GLUMAC_FILM_PK">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 23:17:16 UTC</createdTime>
+<generatorID>38399994-9C94-9AFF-8E57-94E9729B66CC</generatorID>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0EB7DFF4-CF7A-BE1E-B81B-452C2B2FE879"/>
+<colUsage columnID="952954A9-8F67-1C53-A07C-AFBCD46B18AA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F7FE19B0-E779-FDC2-F6B5-F68C03ADA0E4" name="GLUMAC_FILM_OSOBA_FK">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 23:17:16 UTC</createdTime>
+<generatorID>80820795-820A-5331-9A38-65845166E56C</generatorID>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0EB7DFF4-CF7A-BE1E-B81B-452C2B2FE879"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8B189EFE-F6E7-07CC-5B83-9E254806297B" name="GLUMAC_FILM_FILM_FK">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 23:17:16 UTC</createdTime>
+<generatorID>88C58CB4-0310-9599-394E-D1F61A5F0593</generatorID>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="952954A9-8F67-1C53-A07C-AFBCD46B18AA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

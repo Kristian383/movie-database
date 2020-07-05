@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="141A8D7C-B4AC-474B-5F38-6587AF00D687" containerWithKeyObject="A353F57E-B8B3-47C1-6B39-46F958250165" localFKIndex="85BAFDCC-F694-C449-7C38-7AF88C68B708" name="OSOBA_GRAD_FK">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 23:17:16 UTC</createdTime>
+<generatorID>49437C5A-EE61-6D22-AA9B-AA3947ABEF97</generatorID>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>64F89336-5E9A-E5BE-8577-8FF86849B8FA</referredTableID>
+<keyObject>995635CE-8860-74B5-958F-9C6EDDE5E97F</keyObject>
+<referredKeyID>995635CE-8860-74B5-958F-9C6EDDE5E97F</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

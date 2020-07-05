@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BAA33D33-4062-6073-0528-64DC8EF7EF24" name="RECENZIJA">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 23:17:16 UTC</createdTime>
+<generatorID>CADF844B-B097-8CD0-D92E-86E8EC889C20</generatorID>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="FILM_ID_Film" id="0CB5C38D-D9B4-3FC6-4843-0B38D6C8E482">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 23:17:16 UTC</createdTime>
+<generatorID>4EA6E3E0-4826-74B2-8BDD-EB0FBEB8F44D</generatorID>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9FF6E281-9BE1-BC7E-87AD-06C20AFED511" referredColumn="B01DEB5D-83DC-18BE-21E7-D3DE2DF60C68"/>
+</associations>
+</Column>
+<Column name="OSOBA_ID_Osoba" id="C874710C-D02E-14BE-8424-115A8AD8AA8C">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 23:17:16 UTC</createdTime>
+<generatorID>C7E0A525-C5CF-5323-17AD-F27763EC55DE</generatorID>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="967F7441-97FE-4985-3FBF-EB1D5DD036C8" referredColumn="B682EF7A-9E3B-3A6C-F8E5-A34111812F90"/>
+</associations>
+</Column>
+<Column name="Ocjena" id="3D6DF5E5-56DF-B54D-D5E1-A9EDDBCE1290">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 23:17:16 UTC</createdTime>
+<generatorID>FF901B20-10FF-5AAA-3624-B5174F806578</generatorID>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1</beginValue>
+<endValue>5</endValue>
+</rangeDef>
+</listOfRanges>
+</Column>
+<Column name="Komentar" id="0B584DB8-9FE8-7465-FE64-93F096A85FD3">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 23:17:16 UTC</createdTime>
+<generatorID>82C433D4-F75E-AF28-AC29-3CFA04104872</generatorID>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>800</dataTypeSize>
+<ownDataTypeParameters>800,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Datum_objave" id="2BC4AA48-B362-CF20-9593-FC713C7F6114">
+<createdBy>krist</createdBy>
+<createdTime>2020-04-01 00:16:46 UTC</createdTime>
+<generatorID>460C989D-88D2-8077-FF32-D040640D8555</generatorID>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E95FFE62-6C99-5307-5B24-2C39237A62C7" name="RECENZIJA_PK">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 23:17:16 UTC</createdTime>
+<generatorID>FE81F482-6F39-93CC-4919-24EC6F164644</generatorID>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0CB5C38D-D9B4-3FC6-4843-0B38D6C8E482"/>
+<colUsage columnID="C874710C-D02E-14BE-8424-115A8AD8AA8C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1769FDC3-91FE-78F7-BCDE-6E2FC6871076" name="RECENZIJA_OSOBA_FK">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 23:17:16 UTC</createdTime>
+<generatorID>D5306EA3-6E35-436E-CA2A-549E8B875D5E</generatorID>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C874710C-D02E-14BE-8424-115A8AD8AA8C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="16EF741A-B6CA-2919-8453-C0A252D7D0E4" name="RECENZIJA_FILM_FK">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 23:17:16 UTC</createdTime>
+<generatorID>C15B2253-B36B-7CDC-A938-F401558E0368</generatorID>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0CB5C38D-D9B4-3FC6-4843-0B38D6C8E482"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F0AFFD68-CEF6-35F8-05DF-63C01C1A1B95" name="LISTA FILM">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 23:05:53 UTC</createdTime>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<engineerTo>
+<item key="C0ED1F46-98F0-3639-33BE-7913DA525A89" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="LISTA ID Lista" id="450D4E26-CF34-F48D-BE61-A8C40A67C99C">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 23:08:29 UTC</createdTime>
+<generatorID>D83DBCE6-4AC8-04EE-1199-1271C1AB05CA</generatorID>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<engineerTo>
+<item key="C0ED1F46-98F0-3639-33BE-7913DA525A89" value="true"/>
+</engineerTo>
+<referedAttribute>9640EBA1-2F01-55C0-FEBD-BDAF9F0B96DD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FILM ID Film" id="97CCFF9A-0F7A-D215-F363-A7E07A9C7324">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 23:08:37 UTC</createdTime>
+<generatorID>EE6AD967-3AED-CCB7-DDE9-8B1516A95ACE</generatorID>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<engineerTo>
+<item key="C0ED1F46-98F0-3639-33BE-7913DA525A89" value="true"/>
+</engineerTo>
+<referedAttribute>435771DE-0279-3376-8E3E-77D6270BF359</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F6B3C228-4C04-FD58-B7F4-47F81AF47EBD" name="LISTA_FILM_PK">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 23:08:52 UTC</createdTime>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C0ED1F46-98F0-3639-33BE-7913DA525A89" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>450D4E26-CF34-F48D-BE61-A8C40A67C99C</attributeRef>
+<attributeRef>97CCFF9A-0F7A-D215-F363-A7E07A9C7324</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

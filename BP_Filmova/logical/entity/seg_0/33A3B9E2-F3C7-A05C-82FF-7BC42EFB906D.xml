@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="33A3B9E2-F3C7-A05C-82FF-7BC42EFB906D" name="OCJENA FILM">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 22:59:47 UTC</createdTime>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<engineerTo>
+<item key="C0ED1F46-98F0-3639-33BE-7913DA525A89" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="FILM ID Film" id="E1F323FE-2D03-C201-D0F5-570152D42A83">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 23:06:30 UTC</createdTime>
+<generatorID>58ACD1A7-611B-85F2-93CE-61866A0DCB05</generatorID>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<engineerTo>
+<item key="C0ED1F46-98F0-3639-33BE-7913DA525A89" value="true"/>
+</engineerTo>
+<referedAttribute>435771DE-0279-3376-8E3E-77D6270BF359</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KORISNIK ID Korisnik" id="AB502125-3931-BA93-04EE-50348343ADBC">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 23:06:36 UTC</createdTime>
+<generatorID>555B710C-C473-2578-34F9-D7E1A8EAD891</generatorID>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<engineerTo>
+<item key="C0ED1F46-98F0-3639-33BE-7913DA525A89" value="true"/>
+</engineerTo>
+<referedAttribute>C6A12429-0D1A-FC3C-FE5F-C25DCEE2CC87</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ocjena" id="7A291DF3-0F7B-1F8A-4344-E1C17266DD7A">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 23:00:50 UTC</createdTime>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<engineerTo>
+<item key="C0ED1F46-98F0-3639-33BE-7913DA525A89" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1</beginValue>
+<endValue>10</endValue>
+</rangeDef>
+</listOfRanges>
+</Attribute>
+<Attribute name="Komentar" id="60AECF47-31CD-0F8F-F619-51C90981AD2A">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 23:01:27 UTC</createdTime>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<engineerTo>
+<item key="C0ED1F46-98F0-3639-33BE-7913DA525A89" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Datum objave" id="DA3FFB47-F2D8-A8BD-7B64-0A3592A12DD9">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-31 23:36:58 UTC</createdTime>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<engineerTo>
+<item key="C0ED1F46-98F0-3639-33BE-7913DA525A89" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="571EC04A-D224-9454-7A20-4B11FED7BFC5" name="OCJENA_FILM_PK">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 23:00:16 UTC</createdTime>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C0ED1F46-98F0-3639-33BE-7913DA525A89" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E1F323FE-2D03-C201-D0F5-570152D42A83</attributeRef>
+<attributeRef>AB502125-3931-BA93-04EE-50348343ADBC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B1821973-02A7-9C23-28A1-EA361ED41F8F" name="LISTA">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 23:17:16 UTC</createdTime>
+<generatorID>B84E7DF0-6373-B21C-8ABF-E80C4F977D16</generatorID>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Lista" id="C2B0BCEC-308F-088E-771A-4CD33D530C4A">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 23:17:16 UTC</createdTime>
+<generatorID>9640EBA1-2F01-55C0-FEBD-BDAF9F0B96DD</generatorID>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>LISTA_SEQ</autoIncrementSequenceName>
+<autoIncrementTriggerName>LISTA_TRG</autoIncrementTriggerName>
+</Column>
+<Column name="Naziv_liste" id="CF1F1D47-9EB1-6307-F8F9-2F64234A3513">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 23:17:16 UTC</createdTime>
+<generatorID>DE8039DF-D624-383D-EA5D-56B675C9045D</generatorID>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Datum_kreiranja" id="7DD8E210-00DE-E059-1D59-BDA0EAED4D21">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 23:17:16 UTC</createdTime>
+<generatorID>D18B3301-81BF-8FEC-FD0E-C35BAA650A73</generatorID>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Privatnost" id="A8085082-DD41-3EA5-F399-84079521E59D">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 23:17:16 UTC</createdTime>
+<generatorID>F2867CAE-1C0A-EF11-137B-3B914D66E33E</generatorID>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KORISNIK_ID_Korisnik" id="05EB6370-1AE1-71F6-7D3C-6DECEA832006">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 23:17:16 UTC</createdTime>
+<generatorID>30616E95-1E9C-E57D-25C4-3DBB1CB0A21D</generatorID>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2CD1CE70-C80A-7FAD-6065-F26FB6AE0D4B" referredColumn="84ABCAB6-E8B3-E7CE-84FD-7B38EFF6B557"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0D3B5B2C-9453-8DCB-F9C1-560348FF7A47" name="LISTA_PK">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 23:17:16 UTC</createdTime>
+<generatorID>8712C7B1-1D74-B503-BF7E-897F6AFB8E09</generatorID>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C2B0BCEC-308F-088E-771A-4CD33D530C4A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FC78D765-CFAC-3C11-8A60-8F8E419AD37E" name="LISTA_KORISNIK_FK">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 23:17:16 UTC</createdTime>
+<generatorID>084C1852-6A83-9B53-E1A4-160D631A452A</generatorID>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="05EB6370-1AE1-71F6-7D3C-6DECEA832006"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

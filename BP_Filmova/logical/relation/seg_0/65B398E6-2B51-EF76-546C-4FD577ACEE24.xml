@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FILM ZANR ZANR FK" directorySegmentName="seg_0" id="65B398E6-2B51-EF76-546C-4FD577ACEE24">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 21:52:31 UTC</createdTime>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<engineerTo>
+<item key="C0ED1F46-98F0-3639-33BE-7913DA525A89" value="true"/>
+</engineerTo>
+<sourcePk>A2C4AA2C-2C9F-3C23-C1E6-87B5E3CFD91B</sourcePk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5A5F33D6-3062-7810-6578-FDDEF13F5C64</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DDF67755-C964-21B9-4E8C-F4F7B7A52E81</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

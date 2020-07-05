@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D29B6C44-6E26-2A02-F1DA-BB4DB9B2397A" name="OCJENA_FILM">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 23:17:16 UTC</createdTime>
+<generatorID>33A3B9E2-F3C7-A05C-82FF-7BC42EFB906D</generatorID>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="FILM_ID_Film" id="C72A3B81-CB17-CCC0-CD9C-CB8A3ACFE830">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 23:17:16 UTC</createdTime>
+<generatorID>E1F323FE-2D03-C201-D0F5-570152D42A83</generatorID>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2F77A673-692F-712D-D4D0-D9D2190948BD" referredColumn="B01DEB5D-83DC-18BE-21E7-D3DE2DF60C68"/>
+</associations>
+</Column>
+<Column name="KORISNIK_ID_Korisnik" id="8AACD393-D676-AD73-118F-67CA5C84C57C">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 23:17:16 UTC</createdTime>
+<generatorID>AB502125-3931-BA93-04EE-50348343ADBC</generatorID>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BB198DB1-14C3-1EB4-ADD8-89C12BEB3796" referredColumn="84ABCAB6-E8B3-E7CE-84FD-7B38EFF6B557"/>
+</associations>
+</Column>
+<Column name="Ocjena" id="384F5901-3ADD-0C29-7CF3-C21AC90F3BE4">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 23:17:16 UTC</createdTime>
+<generatorID>7A291DF3-0F7B-1F8A-4344-E1C17266DD7A</generatorID>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1</beginValue>
+<endValue>10</endValue>
+</rangeDef>
+</listOfRanges>
+</Column>
+<Column name="Komentar" id="B0804633-5557-8511-F0B3-E9CF9181EDC2">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 23:17:16 UTC</createdTime>
+<generatorID>60AECF47-31CD-0F8F-F619-51C90981AD2A</generatorID>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Datum_objave" id="0D7DB07C-8213-3889-B4DE-1877541C77A4">
+<createdBy>krist</createdBy>
+<createdTime>2020-04-01 00:16:46 UTC</createdTime>
+<generatorID>DA3FFB47-F2D8-A8BD-7B64-0A3592A12DD9</generatorID>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AE73C120-1503-26D1-4729-89C6E1A269C6" name="OCJENA_FILM_PK">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 23:17:16 UTC</createdTime>
+<generatorID>571EC04A-D224-9454-7A20-4B11FED7BFC5</generatorID>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C72A3B81-CB17-CCC0-CD9C-CB8A3ACFE830"/>
+<colUsage columnID="8AACD393-D676-AD73-118F-67CA5C84C57C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="18832A90-7005-A4AB-03A6-6D662A297285" name="OCJENA_FILM_FILM_FK">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 23:17:16 UTC</createdTime>
+<generatorID>58ACD1A7-611B-85F2-93CE-61866A0DCB05</generatorID>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C72A3B81-CB17-CCC0-CD9C-CB8A3ACFE830"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="809C8166-3548-C3CD-BB93-EB642EEB3AF1" name="OCJENA_FILM_KORISNIK_FK">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 23:17:16 UTC</createdTime>
+<generatorID>555B710C-C473-2578-34F9-D7E1A8EAD891</generatorID>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8AACD393-D676-AD73-118F-67CA5C84C57C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

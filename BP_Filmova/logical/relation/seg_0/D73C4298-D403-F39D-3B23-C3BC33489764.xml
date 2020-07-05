@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="LOKACIJA SNIMANJA GRAD FK" directorySegmentName="seg_0" id="D73C4298-D403-F39D-3B23-C3BC33489764">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 21:50:14 UTC</createdTime>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<engineerTo>
+<item key="C0ED1F46-98F0-3639-33BE-7913DA525A89" value="true"/>
+</engineerTo>
+<sourcePk>E975C2FA-01B0-7E55-98FB-4B92D39F25B5</sourcePk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>CF173081-D759-9E71-0467-748C72606258</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>FED465A1-F132-3809-119C-E4AC8E5DDE88</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

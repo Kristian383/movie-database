@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="GRAD DRZAVA FK" directorySegmentName="seg_0" id="1F7DD0B4-5777-BDE4-C202-F0D6C38CC0EC">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 21:40:56 UTC</createdTime>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<engineerTo>
+<item key="C0ED1F46-98F0-3639-33BE-7913DA525A89" value="true"/>
+</engineerTo>
+<sourcePk>88248C57-C85C-D540-5772-4725DA54C6D6</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0E9A87A5-D833-E99C-6976-C7C45B3A665D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>CF173081-D759-9E71-0467-748C72606258</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

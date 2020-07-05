@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2CD1CE70-C80A-7FAD-6065-F26FB6AE0D4B" containerWithKeyObject="B1821973-02A7-9C23-28A1-EA361ED41F8F" localFKIndex="FC78D765-CFAC-3C11-8A60-8F8E419AD37E" name="LISTA_KORISNIK_FK">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 23:17:16 UTC</createdTime>
+<generatorID>084C1852-6A83-9B53-E1A4-160D631A452A</generatorID>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>174BD9BC-E697-2D56-1324-816BD8A188EA</referredTableID>
+<keyObject>3833190E-17BB-B8A9-663A-115B4BC66010</keyObject>
+<referredKeyID>3833190E-17BB-B8A9-663A-115B4BC66010</referredKeyID>
+<mandatory>false</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

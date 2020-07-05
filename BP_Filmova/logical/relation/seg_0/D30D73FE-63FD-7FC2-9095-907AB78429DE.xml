@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="SCENARIST FILM FILM FK" directorySegmentName="seg_0" id="D30D73FE-63FD-7FC2-9095-907AB78429DE">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 22:54:22 UTC</createdTime>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<engineerTo>
+<item key="C0ED1F46-98F0-3639-33BE-7913DA525A89" value="true"/>
+</engineerTo>
+<sourcePk>70BE2E76-F9EB-4980-2877-4A822C077065</sourcePk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1FE1377F-4FBD-67A0-5784-90CF06F166FE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>733E9759-BCD8-BAD1-161D-D05A138E7854</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

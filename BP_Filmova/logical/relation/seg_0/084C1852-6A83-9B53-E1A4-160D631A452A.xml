@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="LISTA KORISNIK FK" directorySegmentName="seg_0" id="084C1852-6A83-9B53-E1A4-160D631A452A">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 23:07:43 UTC</createdTime>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<engineerTo>
+<item key="C0ED1F46-98F0-3639-33BE-7913DA525A89" value="true"/>
+</engineerTo>
+<sourcePk>8B033FB7-95DF-5227-6E31-5B674A6F9C91</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F0D21769-B50D-6239-5BD1-A61898FB9C5B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B84E7DF0-6373-B21C-8ABF-E80C4F977D16</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

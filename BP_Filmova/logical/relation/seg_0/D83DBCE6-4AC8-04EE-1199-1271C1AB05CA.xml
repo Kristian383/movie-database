@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="LISTA FILM LISTA FK" directorySegmentName="seg_0" id="D83DBCE6-4AC8-04EE-1199-1271C1AB05CA">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 23:08:29 UTC</createdTime>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<engineerTo>
+<item key="C0ED1F46-98F0-3639-33BE-7913DA525A89" value="true"/>
+</engineerTo>
+<sourcePk>8712C7B1-1D74-B503-BF7E-897F6AFB8E09</sourcePk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B84E7DF0-6373-B21C-8ABF-E80C4F977D16</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F0AFFD68-CEF6-35F8-05DF-63C01C1A1B95</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

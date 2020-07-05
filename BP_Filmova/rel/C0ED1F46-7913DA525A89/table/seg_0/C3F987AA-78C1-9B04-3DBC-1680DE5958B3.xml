@@ -1,0 +1,175 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C3F987AA-78C1-9B04-3DBC-1680DE5958B3" name="FILM">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 23:17:16 UTC</createdTime>
+<generatorID>1FE1377F-4FBD-67A0-5784-90CF06F166FE</generatorID>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<expectedVolumes>5</expectedVolumes>
+<maxVolumes>10</maxVolumes>
+<minVolumes>1</minVolumes>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Film" id="B01DEB5D-83DC-18BE-21E7-D3DE2DF60C68">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 23:17:16 UTC</createdTime>
+<generatorID>435771DE-0279-3376-8E3E-77D6270BF359</generatorID>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>FILM_SEQ</autoIncrementSequenceName>
+<autoIncrementTriggerName>FILM_TRG</autoIncrementTriggerName>
+</Column>
+<Column name="Naslov" id="12655374-C8EA-31E1-753F-49FFFB8FCBA3">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 23:17:16 UTC</createdTime>
+<generatorID>3A0B9C8C-8AFD-05DA-0E74-B623215EC705</generatorID>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Opis_filma" id="3A011CD6-92F8-371D-5D8B-39373EBFDD48">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 23:17:16 UTC</createdTime>
+<generatorID>67E079CF-D9C0-22C6-F89B-72EA95227F45</generatorID>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Trajanje" id="26A5731D-B692-C3E0-3E42-5FAE9E254993">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 23:17:16 UTC</createdTime>
+<generatorID>53AFA5B2-00B2-692D-C112-11E78FB90CFD</generatorID>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Budzet" id="EA2477C2-A49C-8D46-25D6-4CE5632DF8CB">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 23:17:16 UTC</createdTime>
+<generatorID>916EA0B6-6E1C-A965-E2E8-796B7DD25EDE</generatorID>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Datum_izlaska" id="2E8BCECE-30E9-3DDF-0E17-7C04864646FD">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 23:17:16 UTC</createdTime>
+<generatorID>B9FE5AEA-A74D-D1DA-2BFD-372E93E7787D</generatorID>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KLASIFIKACIJA_ID_Klasifikacija" id="513C9E52-1425-4FF9-208C-3AEBF59FA1F5">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 23:17:16 UTC</createdTime>
+<generatorID>22616FBF-3EB1-3B7F-3BDC-25FE67C5837B</generatorID>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="37093BC3-A56C-A9A2-3B25-8533F5429F64" referredColumn="A7CD4466-E9D7-1EEE-05CB-CA989DF043FD"/>
+</associations>
+</Column>
+<Column name="OSOBA_ID_Osoba" id="596C6BF0-D98B-A20B-3F1F-D40415FDFC01">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 23:17:16 UTC</createdTime>
+<generatorID>8570B56A-753D-ED4D-B490-0F82BC6D599B</generatorID>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="57E5EE58-E259-C4C4-72C6-CD9CEE44C18B" referredColumn="B682EF7A-9E3B-3A6C-F8E5-A34111812F90"/>
+</associations>
+</Column>
+<Column name="Ocjena" id="A182A1A1-26AD-4888-4AAF-3F4244E0B94E">
+<createdBy>krist</createdBy>
+<createdTime>2020-04-02 23:11:39 UTC</createdTime>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1</beginValue>
+<endValue>10</endValue>
+</rangeDef>
+</listOfRanges>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7EF75FB4-F449-BB3C-4599-AB9918D0CADA" name="FILM_PK">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 23:17:16 UTC</createdTime>
+<generatorID>70BE2E76-F9EB-4980-2877-4A822C077065</generatorID>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B01DEB5D-83DC-18BE-21E7-D3DE2DF60C68"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DD2A492A-7672-3D70-A6BA-676BCAE683D2" name="FILM_OSOBA_FK">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 23:17:16 UTC</createdTime>
+<generatorID>DB6F97FB-BC93-849B-E469-AE9FFA5A2FDC</generatorID>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="596C6BF0-D98B-A20B-3F1F-D40415FDFC01"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="55A5F5B9-9D12-13E4-E689-9FC304B330A2" name="FILM_KLASIFIKACIJA_FK">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 23:17:16 UTC</createdTime>
+<generatorID>BA369901-C39B-205B-FCB4-FDFF3ECC43D7</generatorID>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="513C9E52-1425-4FF9-208C-3AEBF59FA1F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

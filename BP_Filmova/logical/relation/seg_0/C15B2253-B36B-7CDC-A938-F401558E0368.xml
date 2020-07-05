@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="RECENZIJA FILM FK" directorySegmentName="seg_0" id="C15B2253-B36B-7CDC-A938-F401558E0368">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 22:07:52 UTC</createdTime>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<engineerTo>
+<item key="C0ED1F46-98F0-3639-33BE-7913DA525A89" value="true"/>
+</engineerTo>
+<sourcePk>70BE2E76-F9EB-4980-2877-4A822C077065</sourcePk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1FE1377F-4FBD-67A0-5784-90CF06F166FE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>CADF844B-B097-8CD0-D92E-86E8EC889C20</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

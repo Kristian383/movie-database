@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="29A7B198-04DC-3B9A-BB4D-07B1AAF41FF0" name="SCENARIST_FILM">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 23:17:16 UTC</createdTime>
+<generatorID>733E9759-BCD8-BAD1-161D-D05A138E7854</generatorID>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="OSOBA_ID_Osoba" id="E571DF7B-4222-5D0B-5C45-FBB729AD0F03">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 23:17:16 UTC</createdTime>
+<generatorID>81C94320-3568-CD82-90A1-97FA4CBDDF24</generatorID>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2827F539-60E1-1DD8-D44E-83047068DFE5" referredColumn="B682EF7A-9E3B-3A6C-F8E5-A34111812F90"/>
+</associations>
+</Column>
+<Column name="FILM_ID_Film" id="E42F7442-CB95-BC76-637E-DCCB72C43A01">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 23:17:16 UTC</createdTime>
+<generatorID>101063F1-C90F-7E9D-5AE8-1504D9C5D492</generatorID>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="229FC8C7-8932-53EC-9D0D-9B272670266F" referredColumn="B01DEB5D-83DC-18BE-21E7-D3DE2DF60C68"/>
+</associations>
+</Column>
+<Column name="Vrsta_scenarija" id="89FE0B76-3C56-A569-0807-280103477F72">
+<createdBy>krist</createdBy>
+<createdTime>2020-04-01 00:16:46 UTC</createdTime>
+<generatorID>60284E54-7571-13C4-0723-E79D045C36C7</generatorID>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1572C96E-5FD1-260D-93C8-FEA6D50B8D2F" name="SCENARIST_FILM_PK">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 23:17:16 UTC</createdTime>
+<generatorID>2E78A64B-29B4-34E7-8C76-6A20FEB055C4</generatorID>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E571DF7B-4222-5D0B-5C45-FBB729AD0F03"/>
+<colUsage columnID="E42F7442-CB95-BC76-637E-DCCB72C43A01"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8672CBF7-DFB2-15B1-20CA-3488862E0CD4" name="SCENARIST_FILM_OSOBA_FK">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 23:17:16 UTC</createdTime>
+<generatorID>A6953B28-AB31-A6FC-6BA3-FCAA5EE876A8</generatorID>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E571DF7B-4222-5D0B-5C45-FBB729AD0F03"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9950CA48-197C-F19F-1259-25B4A0C11720" name="SCENARIST_FILM_FILM_FK">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 23:17:16 UTC</createdTime>
+<generatorID>D30D73FE-63FD-7FC2-9095-907AB78429DE</generatorID>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E42F7442-CB95-BC76-637E-DCCB72C43A01"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

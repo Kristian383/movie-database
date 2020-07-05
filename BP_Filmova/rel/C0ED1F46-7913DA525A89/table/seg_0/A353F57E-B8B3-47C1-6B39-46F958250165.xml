@@ -1,0 +1,142 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A353F57E-B8B3-47C1-6B39-46F958250165" name="OSOBA">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 23:17:16 UTC</createdTime>
+<generatorID>170DB957-3EEF-44FC-17F4-08AA6C7A0A50</generatorID>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Osoba" id="B682EF7A-9E3B-3A6C-F8E5-A34111812F90">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 23:17:16 UTC</createdTime>
+<generatorID>95436E21-F50A-25D6-5D32-D35F06C886A1</generatorID>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>OSOBA_SEQ</autoIncrementSequenceName>
+<autoIncrementTriggerName>OSOBA_TRG</autoIncrementTriggerName>
+</Column>
+<Column name="Ime" id="1EF9EE3D-6782-3F5D-35F8-40EE44BB60F9">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 23:17:16 UTC</createdTime>
+<generatorID>F0AA24C7-A3FE-1AB0-D859-E1873A125BB3</generatorID>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Prezime" id="0640F79B-C15F-32AB-60BC-F6072D94D9A6">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 23:17:16 UTC</createdTime>
+<generatorID>3D249E1E-FBBE-932A-9C42-712C90CAC0B7</generatorID>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Datum_rodenja" id="D6AEDE4A-9D95-FAB2-96DD-ED9C1A92A1C8">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 23:17:16 UTC</createdTime>
+<generatorID>51C86F87-820E-B903-7BFF-1F449F28FBFC</generatorID>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SPOL_ID_Spol" id="6A7F8B66-04E0-FCAB-3B74-2012B9A29A70">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 23:17:16 UTC</createdTime>
+<generatorID>6FFBB05D-D28E-111D-5C3D-54715F5370E4</generatorID>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A473FF48-747D-B6E1-2A4B-677AF98035FA" referredColumn="28901139-DD15-B32C-7CF0-2BA7B996FF9E"/>
+</associations>
+</Column>
+<Column name="GRAD_ID_Grad" id="0AE975E3-654C-364A-096F-295E8CCD836A">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 23:17:16 UTC</createdTime>
+<generatorID>2672B592-DF60-418F-5BA4-72876C07EBE5</generatorID>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="141A8D7C-B4AC-474B-5F38-6587AF00D687" referredColumn="FEC8CEE6-A893-B175-C94D-8B89F0436209"/>
+</associations>
+</Column>
+<Column name="Datum_smrti" id="6916BC61-BD9F-D47F-8CE6-B13975A203B8">
+<createdBy>krist</createdBy>
+<createdTime>2020-04-04 00:46:18 UTC</createdTime>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="78F403F0-F586-CDC5-20BC-A1A68207DDFF" name="OSOBA_PK">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 23:17:16 UTC</createdTime>
+<generatorID>D82043D6-D9ED-5761-49C0-35F8FAFD8080</generatorID>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B682EF7A-9E3B-3A6C-F8E5-A34111812F90"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="47BBC9D8-A293-3419-38C0-3A4850C2F59E" name="OSOBA_SPOL_FK">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 23:17:16 UTC</createdTime>
+<generatorID>D09E1DA8-6D2E-8479-78C6-B4886C90ED9D</generatorID>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6A7F8B66-04E0-FCAB-3B74-2012B9A29A70"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="85BAFDCC-F694-C449-7C38-7AF88C68B708" name="OSOBA_GRAD_FK">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 23:17:16 UTC</createdTime>
+<generatorID>49437C5A-EE61-6D22-AA9B-AA3947ABEF97</generatorID>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0AE975E3-654C-364A-096F-295E8CCD836A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

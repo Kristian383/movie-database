@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AA3CDFE7-BDED-A509-D0E7-B2C1598F7A25" name="LOKACIJA_SNIMANJA">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 23:17:16 UTC</createdTime>
+<generatorID>FED465A1-F132-3809-119C-E4AC8E5DDE88</generatorID>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="GRAD_ID_Grad" id="B6650F77-63FE-842B-1E15-D85E8CB98C1B">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 23:17:16 UTC</createdTime>
+<generatorID>2714A9FD-23EA-E366-F350-2F0D450EDC01</generatorID>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5DA2E192-7A20-904D-7815-1BCAD13ABCDE" referredColumn="FEC8CEE6-A893-B175-C94D-8B89F0436209"/>
+</associations>
+</Column>
+<Column name="FILM_ID_Film" id="64C02842-A224-4A6B-BF2A-CDE31FF8F81D">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 23:17:16 UTC</createdTime>
+<generatorID>AF1806F6-2D79-468D-437C-CA199DE2F15E</generatorID>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4E93984E-94C9-88C8-FB25-E669D485A74E" referredColumn="B01DEB5D-83DC-18BE-21E7-D3DE2DF60C68"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9B29A4C0-6357-544B-4913-E07E9A616037" name="LOKACIJA_SNIMANJA_PK">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 23:17:16 UTC</createdTime>
+<generatorID>57C7F07B-07DF-1069-013B-44BC0B9B6304</generatorID>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B6650F77-63FE-842B-1E15-D85E8CB98C1B"/>
+<colUsage columnID="64C02842-A224-4A6B-BF2A-CDE31FF8F81D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8A4C8008-215D-9C0F-6B79-93C6F6701CFD" name="LOKACIJA_SNIMANJA_GRAD_FK">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 23:17:16 UTC</createdTime>
+<generatorID>D73C4298-D403-F39D-3B23-C3BC33489764</generatorID>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B6650F77-63FE-842B-1E15-D85E8CB98C1B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="60BFFFE5-BD8D-D0D9-ADA9-B2707689F498" name="LOKACIJA_SNIMANJA_FILM_FK">
+<createdBy>krist</createdBy>
+<createdTime>2020-03-29 23:17:16 UTC</createdTime>
+<generatorID>B80144A5-B599-14CD-3459-27A44A412A9A</generatorID>
+<ownerDesignName>BP_Filmova</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="64C02842-A224-4A6B-BF2A-CDE31FF8F81D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
