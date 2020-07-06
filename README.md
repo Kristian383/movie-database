@@ -1,2 +1,2 @@
 "# movie-database" 
-first
+This is my database project using Oracle
